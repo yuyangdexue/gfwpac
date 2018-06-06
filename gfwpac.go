@@ -21,7 +21,7 @@ func main() {
 			"SOCKS 127.0.0.1:1081; "+
 			"SOCKS5 127.0.0.1:1080; "+
 			"SOCKS 127.0.0.1:1080; "+
-			"DIRECT;",
+			"DIRECT",
 		"proxies",
 	)
 	flagOutput := flag.String("output", "gfwpac", "output file")

@@ -562,5 +562,5 @@ for (var rule of {{.Rules}}) {
 }
 
 function FindProxyForURL(url, host) {
-	return matcher.matchesAny(url, host) instanceof BlockingFilter ? {{.Proxies}} : "DIRECT;";
+	return matcher.matchesAny(url, host) instanceof BlockingFilter ? {{.Proxies}} : "DIRECT";
 }
